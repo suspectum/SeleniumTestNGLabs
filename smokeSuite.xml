@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Smoke Suite">
+    <test name="Smoke Module Labs" parallel="methods" thread-count="7">
+        <classes>
+            <class name="labs.lab05"/>
+            <class name="labs.lab06"/>
+            <class name="labs.lab08"/>
+            <class name="labs.lab09"/>
+            <class name="labs.lab10"/>
+            <class name="labs.lab11"/>
+            <class name="labs.lab12"/>
+        </classes>
+    </test>
+
+</suite>
